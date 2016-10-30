@@ -7,43 +7,40 @@
         <meta name="description" content="Resume">
             <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="http://image.shutterstock.com/z/stock-vector-resume-letter-in-a-blue-folder-vector-icon-33412390.jpg"/>
-      
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">  
     </head>
-    <header>
     
-    <h1>Curriculum Vitae </h1>
-        <!--first comment -->
-       <nav>
-         
-                <a href="#info">Personal Information</a> |
-                <a href="#experience">Experience</a>     |
-                <a href="#educational">Educational</a>   |
-                <a href="#languages">Languages skills</a>|
-                <a href="#computer">Computer skills</a> |
-       </nav>
- 
-    </header>
     
 <body>
-
-   
-     <section class="marToTen"  id="info">
+    <header>
+    
+        <h1>Curriculum Vitae </h1>
+        <nav>
+            <ul>
+                <li><a href="#info1">Personal Information</a></li> 
+                <li><a href="#experience1">Experience</a></li>     
+                <li><a href="#educational1">Educational</a></li>   
+                <li><a href="#languages1">Languages skills</a></li>
+                <li><a href="#computer1">Computer skills</a></li> 
+            </ul>    
+        </nav>
+ 
+    </header>
+   <div id="wrapper">
+     <span class="anchor" id="info1"></span>
+     <section id="info"  >
          <h2 class="marToZero">Personal Information</h2> 
-        
-         <img class="img-mohannad" src="images/myphoto.jpg" alt="My Photo">
-         <p>Surname: Al Obaid<br>
+        <div id="myimage">
+         <img  src="images/myphoto.jpg" alt="My Photo">
+        </div>
+            <p>Surname: Al Obaid<br>
        Name: Mohammad Mohannad<br>
-       Date of birth: January 2, 1984<br> 
-       Nationality: Syrian<br> Marital Status: Married<br>
-       Address: Professor Einthovenlaan 28<br>
-               2251 JM Voorschoten<br> 
-               Nederland<br>
-       Telephone: +31 (0)6 238 460 42<br> 
+       Nationality: Syrian<br> 
        Skype: eng_mohalobaid <br>
       Email:eng_mohalobaid@yahoo.com </p>
     </section> 
-    
-    <section class="marToTen" id="experience">
+    <span class="anchor" id="experience1"></span>
+    <section id="experience" >
        <h2 class="marToZero">Experience</h2>
         <p><strong>2015 – 2016:</strong></p> 
             <ul>
@@ -70,7 +67,7 @@
            <ul>
                 <li>Per-commissioning – commissioning of projects for DCS ,ESD, PLC .SCADA, and instrumentation</li>
                 <li>Installing, calibration , maintenance instrumentation, installing operation control system like PLC & DCS& ESD and calibrated all transmitter devices like flow meters, temperature transmitter, Pressure transmitter etc.</li>
-                <li>design control panel ,P&ID diagram  Electrical and instrumentation  support for ESP team</li>
+                <li>design control panel ,P&ID diagram Electrical and instrumentation support for ESP team</li>
            </ul>  
         <p><strong>2009 – 2010: Trainee Engineer at AFPCAl Furat petroleum company (Shell Syria)</strong></p>
             <ul>
@@ -107,8 +104,8 @@
           
 
     </section>
-   
-    <section class="marToTen" id="educational">
+     <span class="anchor" id="educational1"></span>
+    <section id="educational">
         <h2 class="marToZero" >Educational</h2>
            <p>Educational</p>
             <ul>
@@ -127,8 +124,8 @@
 
             </ul>    
     </section>
-    
-    <section class="marToTen" id="languages">
+      <span class="anchor" id="languages1"></span>
+      <section id="languages">
         <h2 class="marToZero">Language skills</h2>
         <ul>
             <li>Arabic (mother tongue - fluent)</li> 
@@ -140,8 +137,8 @@
          
 
     </section>
-    
-    <section class="marToTen" id="computer">
+    <span class="anchor" id="computer1"></span>
+    <section  id="computer">
         <h2 class="marToZero">Computer skills</h2>
         <ul>
             <li> Programming PLC type (Siemens-LG-Delta-crouzet).</li> 
@@ -153,18 +150,20 @@
         </ul>
         
     </section>
- 
+    </div>
+    <footer id="about">
+         <div class="aboutThisPage"><H3>About this Page</H3><br><p>Made with <i class="fa fa-fw fa-coffee"></i> and <i class="fa fa-fw fa-music"></i><br/>by <a href="#">Mohannad Alobaid</a>.</p></div>
+         <div class="aroundWeb"><h3>Around the Web</h3>
+     <h6><ul>
+        <li><a href="https://nl.linkedin.com/in/mohammad-mohannad-alobaid-5088a846" class="button social"><i class="fa fa-fw fa-linkedin"></i></a></li>
+        <li><a href="" class="button social"><i class="fa fa-fw fa-github"></i></a></li>
+        <li><a href="" class="button social"><i class="fa fa-fw fa-twitter"></i></a></li>
+        </ul>
+     </h6>
+            </div>    
+         <div class="footer"></div>
+         
+   </footer>
+    <script src="scroll.js"></script>
 </body>
- <footer>
-     <h5>Code Wrettin by: Mohannad Al Obaid</h5>
-<div id="main">
-   <div><button  type="button" class="btn " ><a href="#info">Personal Info</a></button></div>
-  <div><button  type="button" class="btn" > <a href="#experience">Experience</a></button></div>
-  <div><button  type="button" class="btn" > <a href="#educational">Educational</a></button></div>
-  <div><button  type="button" class="btn" > <a href="#languages">Language</a></button></div>
-  <div><button  type="button" class="btn" > <a href="#computer">Computer</a></button></div>
-</div>
-     
-     
-    </footer>
 </html>
